@@ -1,0 +1,172 @@
+body {
+  background-color: #EEEEEE;
+  min-height: 70vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(198, 1%, 29%);
+  text-align: center;
+  font-size: 130%;
+  position: relative;
+}
+#root{
+  width: 100%;
+}
+.container {
+  min-height: 400px;
+  min-width: 250px;
+  max-width: 700px;
+  width: 90%;
+  margin: 0 auto;
+  background: #CEE5D0;
+  /* background-image: radial-gradient(#bfc0c1 7.2%, transparent 0); */
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.heading {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading h1 {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #393E46;
+  font-size: 1.5rem;
+}
+
+.form input {
+  line-height: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 10px;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #393E46;
+  font-size: 1rem;
+  color: #393E46;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.form input:focus{
+  outline-width: 0;
+}
+.form input::placeholder{
+  color: #393E46;
+}
+
+
+button.add{
+  cursor:pointer;
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: solid black 2px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: transparent;
+  transition: ease-in 0.3s;
+}
+button.add:hover{
+  color: white;
+  background-color: black;
+}
+
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+  border-bottom: solid black 2px;
+  margin: 20px 0;
+  padding: 15px 0;
+  width: 90%;
+  cursor:pointer;
+}
+.item{
+  position: relative;
+}
+#z{
+  cursor:pointer;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  font-size: 18px;
+  padding: 5px 10px;
+  transition: ease-in 0.3s;
+  color: red;
+  background-color: transparent;
+  transition: ease-in 0.3s;
+  border: solid 2px red;
+  border-radius: 7px;
+}
+#z:hover{
+  color: white;
+  background-color: red;
+}
+.info{
+  position: relative;
+  display: block;
+  max-width: 700px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+.infoButton{
+  cursor:pointer;
+  color: #000000;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  border-radius: 20px;
+  padding: 2px 22px;
+  border: 3px solid #000000;
+  transition: ease-in 0.3s;
+  position: absolute;
+  right: 10%;
+
+}
+.infoButton:hover{
+  background-color: #000000;
+  color: white;
+}
+.infoBox{
+  padding: 10px;
+  width: 280px;
+  height: 100px;
+  background-color: #CEE5D0;
+  border: solid 3px #393E46;
+  border-radius: 15px;
+  display: block;
+  margin: 20px auto;
+  position: relative;
+}
+.infoBox>h4{
+  margin: 40px 0 0 0;
+}
+.exitInfo{
+  cursor:pointer;
+  color: red;
+  font-size: 18px;
+  border: none;
+  margin: 7px 7px 0 0;
+  padding: 2px 6px;
+  border-radius: 3px;
+  transition: ease-in 0.3s;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  font-weight: 700;
+}
+.exitInfo:hover{
+  color: white;
+  background-color: red;
+}
+.hide{
+  display: none;
+}
