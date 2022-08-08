@@ -4,6 +4,10 @@ function InputArea(props) {
 
     const [text, setText] = useState("");
 
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
     function update(event) {
         setText(event.target.value);
     }
@@ -19,7 +23,7 @@ function InputArea(props) {
             />
             <button className="add" onClick={() => {
                 if (text.length > 0) {
-                    props.push(text)
+                    props.push(capitalizeFirstLetter(text));
                     setText("");
                 }
             }}>

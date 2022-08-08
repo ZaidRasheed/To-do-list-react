@@ -9,6 +9,7 @@ body {
   text-align: center;
   font-size: 130%;
   position: relative;
+  font-family: sans-serif;
 }
 #root{
   width: 100%;
@@ -88,6 +89,7 @@ li {
   padding: 15px 0;
   width: 90%;
   cursor:pointer;
+
 }
 .item{
   position: relative;
@@ -119,19 +121,19 @@ li {
 }
 .infoButton{
   cursor:pointer;
-  color: #000000;
+  color: #F37878;
   margin-bottom: 20px;
   font-size: 3rem;
   border-radius: 20px;
   padding: 2px 22px;
-  border: 3px solid #000000;
+  border: 3px solid #F37878;
   transition: ease-in 0.3s;
   position: absolute;
   right: 10%;
 
 }
 .infoButton:hover{
-  background-color: #000000;
+  background-color: #F37878;
   color: white;
 }
 .infoBox{
@@ -150,7 +152,7 @@ li {
 }
 .exitInfo{
   cursor:pointer;
-  color: red;
+  color: #F37878;
   font-size: 18px;
   border: none;
   margin: 7px 7px 0 0;
@@ -165,7 +167,7 @@ li {
 }
 .exitInfo:hover{
   color: white;
-  background-color: red;
+  background-color: #F37878;
 }
 .hide{
   display: none;
