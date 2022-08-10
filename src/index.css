@@ -94,6 +94,23 @@ li {
 .item{
   position: relative;
 }
+::-webkit-scrollbar-track {
+  background-color: #CEE5D0;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(33, 37, 41, 0.8); 
+}
+.list{
+  max-height: 300px;
+  overflow-y: scroll;
+  scrollbar-color: red;
+  scrollbar-base-color: red;
+  scrollbar-face-color: #F37878;
+}
 #z{
   cursor:pointer;
   position: absolute;
@@ -120,6 +137,7 @@ li {
   margin: 0 auto;
 }
 .infoButton{
+  background-color: transparent;
   cursor:pointer;
   color: #F37878;
   margin-bottom: 20px;

@@ -32,7 +32,7 @@ function App() {
                 <InputArea
                     push={push}
                 />
-                <div>
+                <div className="list">
                     <ul>
                         {items.map((obj, i) => {
                             return (
