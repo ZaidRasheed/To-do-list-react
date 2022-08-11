@@ -58,7 +58,7 @@ body {
   margin-bottom: 20px;
 }
 .form input:focus{
-  outline-width: 0;
+  outline: none !important;
 }
 .form input::placeholder{
   color: #393E46;
@@ -74,6 +74,7 @@ button.add{
   font-size: 16px;
   background-color: transparent;
   transition: ease-in 0.3s;
+  color: black;
 }
 button.add:hover{
   color: white;
@@ -105,7 +106,7 @@ li {
   background-color: rgba(33, 37, 41, 0.8); 
 }
 .list{
-  max-height: 300px;
+  max-height: 250px;
   overflow-y: scroll;
   scrollbar-color: red;
   scrollbar-base-color: red;
