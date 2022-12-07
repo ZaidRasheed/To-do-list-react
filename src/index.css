@@ -11,9 +11,11 @@ body {
   position: relative;
   font-family: sans-serif;
 }
-#root{
+
+#root {
   width: 100%;
 }
+
 .container {
   min-height: 400px;
   min-width: 250px;
@@ -28,6 +30,7 @@ body {
   padding: 1rem;
   box-sizing: border-box;
 }
+
 .heading {
   color: #fff;
   display: flex;
@@ -35,6 +38,7 @@ body {
   justify-content: center;
   margin-bottom: 1rem;
 }
+
 .heading h1 {
   transform: rotate(2deg);
   padding: 0.2rem 1.2rem;
@@ -57,16 +61,18 @@ body {
   width: 70%;
   margin-bottom: 20px;
 }
-.form input:focus{
+
+.form input:focus {
   outline: none !important;
 }
-.form input::placeholder{
+
+.form input::placeholder {
   color: #393E46;
 }
 
 
-button.add{
-  cursor:pointer;
+button.add {
+  cursor: pointer;
   margin-left: 10px;
   padding: 10px 15px;
   border: solid black 2px;
@@ -76,7 +82,8 @@ button.add{
   transition: ease-in-out 0.3s;
   color: black;
 }
-button.add:hover{
+
+button.add:hover {
   color: white;
   background-color: black;
 }
@@ -89,31 +96,37 @@ li {
   margin: 20px 0;
   padding: 15px 0;
   width: 90%;
-  cursor:pointer;
+  cursor: pointer;
 
 }
-.item{
+
+.item {
   position: relative;
 }
+
 ::-webkit-scrollbar-track {
   background-color: #CEE5D0;
 }
+
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  background-color: rgba(33, 37, 41, 0.8); 
+  background-color: rgba(33, 37, 41, 0.8);
 }
-.list{
+
+.list {
   max-height: 250px;
   overflow-y: scroll;
   scrollbar-color: red;
   scrollbar-base-color: red;
   scrollbar-face-color: #F37878;
 }
-#z{
-  cursor:pointer;
+
+#z {
+  cursor: pointer;
   position: absolute;
   right: 10%;
   top: 10%;
@@ -126,11 +139,13 @@ li {
   border: solid 2px red;
   border-radius: 7px;
 }
-#z:hover{
+
+#z:hover {
   color: white;
   background-color: red;
 }
-.info{
+
+.info {
   position: relative;
   min-height: 120px;
   min-width: 250px;
@@ -138,9 +153,10 @@ li {
   width: 90%;
   margin: 0 auto;
 }
-.infoButton{
+
+.infoButton {
   background-color: transparent;
-  cursor:pointer;
+  cursor: pointer;
   color: #F37878;
   margin-bottom: 20px;
   font-size: 3rem;
@@ -152,11 +168,13 @@ li {
   right: 0;
 
 }
-.infoButton:hover{
+
+.infoButton:hover {
   background-color: #F37878;
   color: white;
 }
-.infoBox{
+
+.infoBox {
   padding: 0 10px 20px;
   margin: 0 auto;
   background-color: #CEE5D0;
@@ -166,11 +184,13 @@ li {
   margin: 20px auto;
   position: relative;
 }
-.infoBox>h4{
+
+.infoBox>h4 {
   margin: 40px 0 0 0;
 }
-.exitInfo{
-  cursor:pointer;
+
+.exitInfo {
+  cursor: pointer;
   color: #F37878;
   font-size: 18px;
   border: none;
@@ -184,15 +204,18 @@ li {
   background-color: transparent;
   font-weight: 700;
 }
-.exitInfo:hover{
+
+.exitInfo:hover {
   color: white;
   background-color: #F37878;
 }
-.hide{
+
+.hide {
   display: none;
 }
-@media screen and (max-width:572px){
-  .info{
+
+@media screen and (max-width:572px) {
+  .info {
     min-height: 140px;
   }
 }
