@@ -24,7 +24,7 @@ function App() {
 
     return (
         <div>
-            <Info/>
+            <Info />
             <div className="container">
                 <div className="heading">
                     <h1>To-Do List</h1>

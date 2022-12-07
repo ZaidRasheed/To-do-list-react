@@ -73,7 +73,7 @@ button.add{
   border-radius: 5px;
   font-size: 16px;
   background-color: transparent;
-  transition: ease-in 0.3s;
+  transition: ease-in-out 0.3s;
   color: black;
 }
 button.add:hover{
@@ -119,10 +119,10 @@ li {
   top: 10%;
   font-size: 18px;
   padding: 5px 10px;
-  transition: ease-in 0.3s;
+  transition: ease-in-out 0.3s;
   color: red;
   background-color: transparent;
-  transition: ease-in 0.3s;
+  transition: ease-in-out 0.3s;
   border: solid 2px red;
   border-radius: 7px;
 }
@@ -147,7 +147,7 @@ li {
   border-radius: 20px;
   padding: 2px 22px;
   border: 3px solid #F37878;
-  transition: ease-in 0.3s;
+  transition: ease-in-out 0.3s;
   position: absolute;
   right: 0;
 
@@ -177,7 +177,7 @@ li {
   margin: 7px 7px 0 0;
   padding: 2px 6px;
   border-radius: 3px;
-  transition: ease-in 0.3s;
+  transition: ease-in-out 0.3s;
   position: absolute;
   right: 0;
   top: 0;
